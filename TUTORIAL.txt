@@ -1,0 +1,229 @@
+================================================================
+        GTA V ENHANCED - PLATFORM SWITCHER
+        Satu folder game buat Steam / Epic / Rockstar (RGL)
+        by REVA
+================================================================
+
+Paket ini buat versi game: 1.0.1158.16
+Kalau versi game kamu beda, JANGAN pakai paket ini - tunggu
+paket yang versinya cocok.
+
+----------------------------------------------------------------
+ISI PAKET
+----------------------------------------------------------------
+  EnhancedSwitcher.exe    -> aplikasinya (satu file, tanpa dll)
+  Switcher\Steam\         -> file khusus edisi Steam
+  Switcher\Epic\          -> file khusus edisi Epic
+  Switcher\RGL\           -> file khusus edisi Rockstar
+  TUTORIAL.txt            -> file ini
+
+Syarat:
+  - Kamu punya GTA V Enhanced di platform yang mau kamu pakai
+    (perpindahan ini menukar FILE, bukan kepemilikan game).
+  - Minimal satu edisi sudah ter-download penuh sebagai folder
+    bersama ("base").
+
+================================================================
+BAHASA INDONESIA
+================================================================
+
+----------------------------------------------------------------
+1. PASANG (sekali saja)
+----------------------------------------------------------------
+Copy DUA ini ke dalam folder GTA V Enhanced yang mau kamu
+jadikan folder bersama (base):
+
+    EnhancedSwitcher.exe
+    folder Switcher
+
+Hasilnya kira-kira begini:
+
+    Grand Theft Auto V Enhanced\
+      GTA5_Enhanced.exe
+      EnhancedSwitcher.exe      <- baru
+      Switcher\Steam|Epic|RGL   <- baru
+
+Folder base boleh folder instalasi Steam, Epic, atau RGL -
+bebas, yang penting isinya satu instalasi game yang utuh.
+
+----------------------------------------------------------------
+2. ARAHKAN LAUNCHER KE FOLDER BASE (sekali saja per launcher)
+----------------------------------------------------------------
+Setiap launcher awalnya cuma kenal folder instalasinya sendiri.
+Supaya dia mau main dari folder base, arahkan SEKALI saja.
+Sesudah itu, pindah-pindah platform cukup dari aplikasi ini.
+
+STEAM - kalau base kamu memang folder instalasi Steam,
+        tidak ada yang perlu diatur. Langsung ke langkah 3.
+        Kalau base BUKAN folder Steam: buka Steam > Settings >
+        Storage, tambahkan folder induk base sebagai library,
+        lalu game-nya akan terbaca dari sana.
+
+RGL   - 1. Di aplikasi ini klik RGL dulu (base jadi mode RGL).
+        2. Jalanin PlayGTAV.exe DARI FOLDER BASE.
+        3. Rockstar Launcher akan nawarin Install. Klik BROWSE,
+           pilih folder INDUK dari base
+           (contoh: ...\steamapps\common - BUKAN folder game-nya
+           langsung, launcher yang masuk ke subfoldernya).
+        4. Klik INSTALL. Karena file di base sudah file RGL,
+           dia cuma verifikasi + download sedikit
+           (di pengujian cuma ~100 MB).
+        Selesai - RGL sekarang main dari base.
+
+EPIC  - 1. Di aplikasi ini klik Epic dulu (base jadi mode Epic).
+        2. Di Epic Games Launcher, pilih GTA V Enhanced >
+           Install, arahkan lokasinya ke folder INDUK dari base
+           yang sama.
+        3. Epic akan menemukan file yang sudah ada, verifikasi,
+           dan cuma download sisanya yang kurang.
+        Selesai - Epic sekarang main dari base.
+
+Catatan: kalau kamu punya instalasi terpisah dari launcher itu
+di folder lain, biarkan dulu selama pengarahan ini - hapus
+nanti saja sesudah semuanya terbukti jalan.
+
+----------------------------------------------------------------
+3. PEMAKAIAN SEHARI-HARI
+----------------------------------------------------------------
+1. Tutup game DAN launcher lain (Steam/Epic/Rockstar) sampai
+   keluar dari system tray juga.
+2. Jalanin EnhancedSwitcher.exe (dia minta admin sendiri).
+3. Lihat "Platform aktif" - itu mode folder base kamu sekarang.
+4. Klik logo platform tujuan. File tertukar otomatis.
+   Angka versi di tombol = versi file yang tersimpan; kalau
+   beda dengan versi game, aplikasi akan ngasih peringatan.
+5. Klik "Launch" - main.
+
+----------------------------------------------------------------
+4. ATURAN PENTING
+----------------------------------------------------------------
+- JANGAN pindah platform selagi game masih jalan.
+- Sesudah game UPDATE, file di folder Switcher jadi basi.
+  Jangan pindah platform sebelum ada paket baru yang versinya
+  cocok dengan versi game terbaru.
+- Jangan utak-atik isi folder Switcher secara manual.
+- Satu folder base hanya boleh jadi satu platform dalam satu
+  waktu - itu memang cara kerjanya.
+
+----------------------------------------------------------------
+5. KALAU ADA MASALAH
+----------------------------------------------------------------
+- Tombol platform tidak bisa diklik / tulisannya "belum
+  lengkap": folder Switcher platform itu tidak lengkap.
+  Ekstrak ulang paketnya.
+- Game tidak mau jalan sesudah pindah: kemungkinan launcher
+  platform itu belum pernah diarahkan ke base (langkah 2),
+  atau launcher lain masih jalan di background. Tutup semua
+  launcher dari system tray, coba lagi.
+- Masih gagal: buka Switcher\Switcher.log, di situ tercatat
+  semua yang dilakukan aplikasi.
+
+================================================================
+ENGLISH
+================================================================
+
+This pack is for game version: 1.0.1158.16
+If your game version differs, DO NOT use this pack - wait for
+a matching one.
+
+Package contents:
+  EnhancedSwitcher.exe    -> the app (single file, no dlls)
+  Switcher\Steam|Epic|RGL -> the per-platform files
+  TUTORIAL.txt            -> this file
+
+Requirements:
+  - You own GTA V Enhanced on every platform you switch to
+    (this swaps FILES, not game ownership).
+  - At least one edition fully downloaded as the shared
+    folder ("base").
+
+----------------------------------------------------------------
+1. INSTALL (once)
+----------------------------------------------------------------
+Copy the exe AND the Switcher folder into the GTA V Enhanced
+folder you want to use as the shared base:
+
+    Grand Theft Auto V Enhanced\
+      GTA5_Enhanced.exe
+      EnhancedSwitcher.exe      <- new
+      Switcher\Steam|Epic|RGL   <- new
+
+The base can be your Steam, Epic, or RGL install folder - any
+complete install works.
+
+----------------------------------------------------------------
+2. POINT EACH LAUNCHER AT THE BASE (once per launcher)
+----------------------------------------------------------------
+Every launcher only knows its own install folder at first.
+Point it at the base ONCE; after that, switching is done
+entirely from this app.
+
+STEAM - if the base IS your Steam install folder, nothing to
+        do - go to step 3. Otherwise: Steam > Settings >
+        Storage, add the base's parent folder as a library
+        and the game will be picked up from there.
+
+RGL   - 1. In this app, click RGL first (base enters RGL mode).
+        2. Run PlayGTAV.exe FROM THE BASE FOLDER.
+        3. The Rockstar Launcher offers Install. Click BROWSE
+           and pick the base's PARENT folder
+           (e.g. ...\steamapps\common - NOT the game folder
+           itself; the launcher enters the subfolder for you).
+        4. Click INSTALL. The base already holds RGL files, so
+           it only verifies and downloads a little
+           (~100 MB in testing).
+        Done - RGL now plays from the base.
+
+EPIC  - 1. In this app, click Epic first (base enters
+           Epic mode).
+        2. In the Epic Games Launcher choose GTA V Enhanced >
+           Install and point the location at the same parent
+           folder of the base.
+        3. Epic discovers the existing files, verifies them,
+           and downloads only what's missing.
+        Done - Epic now plays from the base.
+
+Note: if you still have a separate install of that launcher
+elsewhere, leave it alone during this setup - delete it later
+once everything is proven to work.
+
+----------------------------------------------------------------
+3. DAILY USE
+----------------------------------------------------------------
+1. Close the game AND the other launchers (including their
+   system tray icons).
+2. Run EnhancedSwitcher.exe (it asks for admin by itself).
+3. Check "Active platform" - that's the base's current mode.
+4. Click the logo of the platform you want. Files are swapped
+   automatically. The version number on each button is the
+   stored file version; the app warns you if it doesn't
+   match the game version.
+5. Click "Launch" - play.
+
+----------------------------------------------------------------
+4. IMPORTANT RULES
+----------------------------------------------------------------
+- NEVER switch platforms while the game is running.
+- After a game UPDATE, the stored Switcher files go stale.
+  Do not switch until a new pack matching the new game
+  version is available.
+- Do not edit the contents of the Switcher folders by hand.
+- One base folder holds one platform at a time - that's how
+  it works.
+
+----------------------------------------------------------------
+5. TROUBLESHOOTING
+----------------------------------------------------------------
+- A platform button can't be clicked / says "incomplete":
+  that platform's Switcher folder is incomplete.
+  Re-extract the pack.
+- Game won't start after switching: that launcher probably
+  hasn't been pointed at the base yet (step 2), or another
+  launcher is still running in the background. Close every
+  launcher from the system tray and retry.
+- Still stuck: open Switcher\Switcher.log - everything the
+  app did is recorded there.
+
+================================================================
+                        (c) REVA
+================================================================
