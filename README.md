@@ -6,6 +6,14 @@ The three editions of the game are ~99% identical. Only a small set of platform 
 
 Inspired by TechnoStone's Platform Switcher for the Legacy edition — this is the Enhanced equivalent.
 
+## Download
+
+**[Download the full package (Google Drive)](https://drive.google.com/file/d/1WffZy0mv1CUHnkTA8SU5SMTOhMp-emuJ/view?usp=sharing)** — one zip containing `EnhancedSwitcher.exe` and the pre-filled `Switcher` folders. Extract it into your GTA V Enhanced folder, run the exe, click a platform, play.
+
+- For **game version 1.0.1158.16** only — don't use it on other versions.
+- You must own the game on every platform you switch to.
+- Full bilingual tutorial (EN + ID): [TUTORIAL.txt](TUTORIAL.txt) in this repo.
+
 ## How it works
 
 Each platform's file set lives in `Switcher\<Platform>\` inside the game folder:
